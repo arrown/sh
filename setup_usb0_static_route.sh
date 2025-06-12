@@ -7,7 +7,7 @@ sudo cp /etc/dhcpcd.conf /etc/dhcpcd.conf.bak.$(date +%s)
 echo "" | sudo tee -a /etc/dhcpcd.conf
 echo "# ===== LTE usb0 설정 =====" | sudo tee -a /etc/dhcpcd.conf
 echo "interface usb0" | sudo tee -a /etc/dhcpcd.conf
-echo "static ip_address=192.168.225.30/24" | sudo tee -a /etc/dhcpcd.conf
+echo "static ip_address=192.168.225.20/24" | sudo tee -a /etc/dhcpcd.conf
 echo "static routers=192.168.225.1" | sudo tee -a /etc/dhcpcd.conf
 echo "static domain_name_servers=8.8.8.8 1.1.1.1" | sudo tee -a /etc/dhcpcd.conf
 
