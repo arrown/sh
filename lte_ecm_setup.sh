@@ -2,7 +2,7 @@
 
 DEVICE="/dev/ttyUSB2"
 INTERFACE="usb0"
-STATIC_IP="192.168.225.30"
+STATIC_IP="192.168.225.20"
 GATEWAY="192.168.225.1"
 LOG="/home/pal/ecm_setup.log"
 
